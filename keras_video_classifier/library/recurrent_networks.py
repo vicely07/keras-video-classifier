@@ -1,4 +1,4 @@
-from keras.layers import Dense, Activation, Dropout, Bidirectional
+from keras.layers import Dense, Activation, Dropout, Bidirectional, Flatten
 from keras.layers.recurrent import LSTM
 from keras.models import Sequential
 from keras.applications.vgg16 import VGG16
